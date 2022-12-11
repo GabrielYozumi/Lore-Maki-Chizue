@@ -11,11 +11,11 @@
   body{
     background-image: url(./BG/BG\ \(3\).jpg);
     background-position: top center;
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #c04de4;
   }
-  
+
   body * {
     font-family: 'Merriweather', sans-serif;
     line-height: 160%;
@@ -24,10 +24,11 @@
   header {
     padding-top: 32px;
     height: calc(120px + 94px);
+    padding-bottom: 250px;
   }
   
   header div {
-    width: 120px;
+    width: 200px;
     margin: auto;
   
     background: linear-gradient(343deg, rgba(0,67,255,1) 0%, rgba(173,35,255,1) 50%, rgba(250,60,241,1) 100%);
@@ -49,12 +50,12 @@
   }
   
   main {
-    max-width: 580px;
+    max-width: 680px;
     width: 90%;
     margin: 32px auto;
   
     display: grid;
-    gap: 24px;
+    gap: 40px;
   }
   
   section {
@@ -98,7 +99,7 @@
   }
   
   section ul li:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
   }
   
   .fav-list img {
@@ -121,25 +122,11 @@
   
   .complete-list img {
     max-height: 200px;
-    max-width: 160px;
+    max-width: 1600px;
     width: auto;
     height: auto;
     border-radius: 20px;
     border:3px solid #ad23ff;
-  }
-  
-  .hiato-list img {
-    max-height: 200px;
-    max-width: 160px;
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-    border:3px solid #ad23ff;
-  }
-  
-  .social-list {
-  justify-content: left;
-  padding-left: 32px;
   }
   
   /* animation */
@@ -175,14 +162,6 @@
   
   main section:nth-child(3) {
       animation-delay: 1.5s;
-  }
-  
-  main section:nth-child(4) {
-      animation-delay: 1.9s;
-  }
-  
-  main section:nth-child(5) {
-      animation-delay: 2.3s;
   }
   
   @keyframes totop {
