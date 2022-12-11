@@ -9,7 +9,7 @@
   }
   
   body{
-    background-image: url(./BG/BG\ \(3\).jpg);
+    background-image: url(./BG/BG7.jpg);
     background-position: top center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@
   
   .follow-list img {
     max-height: 200px;
-    max-width: 160px;
+    max-width: 1600px;
     width: auto;
     height: auto;
     border-radius: 20px;
